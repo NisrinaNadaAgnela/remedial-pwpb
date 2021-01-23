@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ini_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- setiap ImageView untuk melampirkan gambar-gambar dan mengatur posisinya -->
+    <!-- setiap TextView untuk melampirkan text berisi nama member -->
+
+    <ImageView
+        android:id="@+id/inicravity"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/crvt"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/penjelasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CRAVITY adalah boygroup asal Starship Entertinment yang beranggotakan 9 orang dan debut pada 14 April 2020 lalu dengan mini album pertama HIDEOUT SEASON 1 : REMEMBER WHO WE ARE dengan title track Break All The Rules"
+        android:textSize="12sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/penjelasan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pada tanggal 24 Agustus 2020 ini, CRAVITY comeback dengan mini album kedua HIDEOUT SEASON 2 : THE NEW DAY WE STEP INTO dengan title track Flame."
+        android:textSize="12sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/penjelasan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sekarang CRAVITY sudah comeback dengan mini album ketiga HIDEOUT SEASON 3 : BE OUR VOICE dengan title track My Turn pada tanggal 19 Januari 2019."
+        android:textSize="12sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

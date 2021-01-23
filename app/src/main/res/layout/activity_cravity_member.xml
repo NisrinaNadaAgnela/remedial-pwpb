@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ini_grid_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="6"
+    tools:context=".CravityMemberActivity">
+
+    <!-- setiap ImageView untuk melampirkan gambar-gambar dan mengatur posisinya -->
+    <!-- setiap TextView untuk melampirkan text berisi nama member -->
+
+    <ImageView
+        android:id="@+id/parkserim"
+        android:src="@drawable/serim"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:id="@+id/allenma"
+        android:src="@drawable/allen"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/koojungmo"
+        android:src="@drawable/jungmo"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Park Serim"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Allen Ma"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Koo Jungmo"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/seowoobin"
+        android:src="@drawable/woobin"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/hamwonjin"
+        android:src="@drawable/wonjini"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/kangminhee"
+        android:src="@drawable/minhee"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Seo Woobin"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Ham Wonjin"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Kang Minhee"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/songhyeongjun"
+        android:src="@drawable/hyeongjun"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/kimtaeyoung"
+        android:src="@drawable/taeyoung"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/ahnseongmin"
+        android:src="@drawable/seongmin"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Song Hyeongjun"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Kim Taeyoung"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Ahn Seongmin"
+        android:textSize="14sp" />
+
+</GridLayout>
